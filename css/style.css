@@ -20,11 +20,14 @@
   font-family: "Roboto", sans-serif;
   font-family: "VT323", monospace;
   padding-top: 20px;
+
 }
 .hero-text h2 {
-  font-size: 24px;
+  font-size: 23px;
   line-height: 28.12px;
   font-weight: 700;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 .hero-text h1 {
   font-size: 72px;
@@ -33,12 +36,13 @@
 }
 .hero-btn{
     color: #272142;
-    font-weight: 700;
-    line-height: 17.07px;
 }
 .btn{
     background-color: white !important;
     border-radius: 50px !important;
     padding: 18px 30px 18px 30px !important;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    line-height: 17.07px;
 
 }
