@@ -1,0 +1,44 @@
+.nav-text {
+  font-family: "Roboto", sans-serif;
+  font-family: "VT323", monospace;
+  font-size: 16px;
+  line-height: 18.75px;
+}
+.hero-p {
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 400;
+}
+.hero-image {
+  background: url(/image/bg.png), lightgray 0px -98.506px / 100% 240% no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 500px;
+  padding-top: 89px;
+}
+.hero-text {
+  font-family: "Roboto", sans-serif;
+  font-family: "VT323", monospace;
+  padding-top: 20px;
+}
+.hero-text h2 {
+  font-size: 24px;
+  line-height: 28.12px;
+  font-weight: 700;
+}
+.hero-text h1 {
+  font-size: 72px;
+  line-height: 84.38px;
+  font-weight: 700;
+}
+.hero-btn{
+    color: #272142;
+    font-weight: 700;
+    line-height: 17.07px;
+}
+.btn{
+    background-color: white !important;
+    border-radius: 50px !important;
+    padding: 18px 30px 18px 30px !important;
+
+}
