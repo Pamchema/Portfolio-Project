@@ -27,12 +27,13 @@
   line-height: 28.12px;
   font-weight: 700;
   padding-left: 10px;
-  padding-right: 10px;
+  /* padding-right: 10px; */
 }
 .hero-text h1 {
-  font-size: 72px;
+  font-size: 70px;
   line-height: 84.38px;
   font-weight: 700;
+  letter-spacing: 10%;
 }
 .hero-btn{
     color: #272142;
@@ -46,3 +47,19 @@
     line-height: 17.07px;
 
 }
+.content {
+    padding-top: 20px;
+}
+img{
+    transition: transform .2s;
+    padding:3px;
+
+}
+img:hover{
+    transform: scale(1.2);
+}
+footer{
+  background-color:  #282323;
+;
+}
+/*  Media 
