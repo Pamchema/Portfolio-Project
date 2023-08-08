@@ -71,7 +71,7 @@ footer{
   background: url(/image/bg.png), lightgray 0px -98.506px / 100% 240% no-repeat;
   background-position: center;
   background-size: cover;
-  height: 500px;
+  min-height: 500px;
   padding-top: 50px;
   width:50%
 
@@ -88,7 +88,8 @@ flex-direction: row;
  .about-text{
   width:50%;
   background-color:#1B1B1B;
-  height: 500px;
+  min-height: 500px;
+  padding-bottom: 30px;
  }
  .p-text{
  color: #F65282;
@@ -116,4 +117,84 @@ font-size: 18px;
 font-style: normal;
 font-weight: 400;
 line-height: 30px
+ }
+ .camera-section{
+  background-color:#2D2727 ;
+   display: inline-flex;
+border-radius: 4px;
+padding: 8px;
+/* justify-content: space-around; */
+align-items: center;
+
+
+ }
+ /* .camera-section p{
+;
+ } */
+ h5{
+  font-family: Roboto;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 30px
+ }
+ .about-btn{
+    background-color: white !important;
+    border-radius: 50px !important;
+    padding: 18px 30px !important;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    line-height: 17.07px;
+ }
+ .gallery-section{
+  background-color: #1B1B1B;
+  min-height: 200px;
+ }
+ .gallery-page{
+  background-color:  #1B1B1B;;
+ }
+ .gallery-text{
+  font-family: Roboto;
+font-size: 72px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 7.2px;
+text-transform: uppercase;
+
+ }
+ .contact-us{
+  background-color: #1B1B1B;
+ }
+ .contact-us{
+  text-align: center;
+font-family: Roboto;
+font-size: 72px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 7.2px;
+text-transform: uppercase;
+
+ }
+ .address-text{
+  color: #f65282 !important;
+  font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 1.4px;
+text-transform: uppercase;
+
+ }
+ .location-text{
+  font-family: Roboto;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px
+ }
+ .contact-section{
+  min-height: 500px;
  }
