@@ -10,7 +10,7 @@
   font-weight: 400;
 }
 .hero-image {
-  background: url("/image/bg.png"),lightgray 0px -98.506px / 100% 240% no-repeat;
+  background: url("../image/bg.png"),lightgray 0px -98.506px / 100% 240% no-repeat;
   background-position: center;
   background-size: cover;
   height: 500px;
