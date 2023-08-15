@@ -49,7 +49,7 @@
   padding-top: 20px;
 }
 img {
-  transition: transform 0.2s;
+  transition: transform 0.3s;
   padding: 3px;
 }
 img:hover {
@@ -237,7 +237,7 @@ h5 {
   font-size: 16px;
 }
 .h2-text {
-  font-family: Roboto;
+
   font-size: 49px;
   
 }
