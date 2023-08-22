@@ -59,11 +59,11 @@
 .content {
   padding-top: 20px;
 }
-.content img {
+ img {
   transition: transform 0.3s;
   padding: 3px;
 }
-.content img:hover {
+img:hover {
   transform: scale(1.2);
 }
 footer {
@@ -172,6 +172,12 @@ h5 {
   /* max-height: 500px; */
   padding-bottom: 145px;
 }
+.contact-icons{
+  font-size: 14.5px;
+}
+.padding{
+  margin-top: -14px;
+}
 .contact-us {
   text-align: center;
   font-family: Roboto;
@@ -213,6 +219,9 @@ h5 {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+}
+.footer-text p{
+  margin-top:1!important;
 }
 
 /* /*  Media responsiveness/* */
@@ -259,5 +268,8 @@ h5 {
 }
 .p-text{
   font-size: 16px;
+}
+.location-icon{
+  margin-top: -19px;
 }
 }
