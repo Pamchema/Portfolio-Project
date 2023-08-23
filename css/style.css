@@ -277,4 +277,22 @@ h5 {
     margin-top: 0;
     margin-bottom: 1rem;
   }
+  .my-camera{
+    display: none;
+  }
+}
+.bounce {
+  animation: bounce 1s infinite;
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0);
+  }
 }
